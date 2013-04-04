@@ -14,9 +14,13 @@ if your projects under git control are in one directory or more
 eg，if you cloned 4 projects in F:\GIT with 'git clone' command:
 
 >F:\GIT
+
 >├─JQuerySourceCode
+
 >├─pull-all-git-project
+
 >├─RapidValidation
+
 >└─TableKnight
 
 可以在脚本的配置变量中添加路径：F:\GIT，执行脚本就可以依次在每个目录中执行git pull命令，具体的配置方式参见下面的说明
@@ -41,8 +45,11 @@ modify the variable path\_list,use $HOME instead of symbol '~'
 eg:
 
 >*添加以前 before:*
+
 >path\_list=("$HOME/git" "/git")
+
 >*添加以后 after add my git path:F:/git*
+
 >path\_list=("$HOME/git" "/git" "F:/git")
 
 Windows批处理脚本 (Windows Batch Script）
@@ -63,10 +70,16 @@ add the variable path1,path2,path3,...,path1000,the number must begin with 1,ste
 eg:
 
 >*添加以前 before*
+
 >set path1=%cd%
+
 >set path2=%homedrive%%homepath%
+
 >*添加以后 after add my git path:F:/git*
+
 >set path1=%cd%
+
 >set path2=%homedrive%%homepath%
+
 >set path3=F:\git rem add my own path here
 
