@@ -81,5 +81,5 @@ eg:
 
 >set path2=%homedrive%%homepath%
 
->set path3=F:\git rem add my own path here
+>set path3=F:\git 
 
