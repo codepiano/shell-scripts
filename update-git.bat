@@ -2,7 +2,6 @@
 rem given path
 set path1=%cd%
 set path2=%homedrive%%homepath%
-set path3=F:\git
 rem eg:
 rem set path3=C:\
 rem set path4=D:\
