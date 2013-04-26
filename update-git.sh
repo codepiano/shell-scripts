@@ -15,11 +15,20 @@ then
 			echo ">>>>>>>>>>>>>>>>>>> scaning $path"
 			for file in `ls $path`
 			do
-				if [ -d "$path/$file" ] && [ -d "$path/$file/.git" ]
+				if [ -d "$path/$file" ] 
 				then
-					echo "------------------- $file"
-					git --git-dir "$path/$file/.git" pull
-					((total_count=total_count+1))
+				    if	[ -d "$path/$file/.git" ]
+					then
+						echo "------------------- $file"
+						git --git-dir "$path/$file/.git" pull origin master
+						((total_count=total_count+1))
+					fi
+					#update submodules
+				    if	[ -f "$path/$file/.gitmodules" ]
+					then
+						echo "------------------- $file submodules"
+						(cd $path/$file && git submodule foreach git pull origin master)
+					fi
 				fi
 			done
 			echo "<<<<<<<<<<<<<<<<<<< $path done"
@@ -33,10 +42,19 @@ else
 		case "$optname" in
 			"d")
 				echo "$OPTARG"
-					if [ -d "$OPTARG" ] && [ -d "$OPTARG/.git" ]
+					if [ -d "$OPTARG" ]
 					then
-						echo "------------------- $OPTARG"
-						git --git-dir "$OPTARG/.git" pull
+						if [ -d "$OPTARG/.git" ]
+						then
+							echo "------------------- $OPTARG"
+							git --git-dir "$OPTARG/.git" pull origin master
+						fi
+						#update submodules
+						if [ -f "$OPTARG/.gitmodules" ]
+						then
+							echo "------------------- $OPTARG submodules"
+							(cd $OPTARG && git submodule foreach git pull origin master)
+						fi
 					fi
 				;;
 			*)

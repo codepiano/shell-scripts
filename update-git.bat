@@ -20,6 +20,10 @@ if "%1"=="" (
 					git --git-dir "%%r\.git" pull
 					set /a total_count=total_count+1
 				)
+				if exist %%r\.gitmodules (
+					echo ------------------- %%r submodules
+					cd /d %%r && git submodule foreach git pull origin master
+				)
 		    )
 			echo ^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^< !path%%i! done
 		) else (
@@ -31,6 +35,10 @@ if "%1"=="" (
 	if exist %1\.git (
 		echo ------------------- %1
 		git --git-dir "%1\.git" pull
+	)
+	if exist %1\.gitmodules (
+		echo ------------------- %1 submodules
+		cd /d %1 && git submodule foreach git pull origin master
 	)
 )
 :end
