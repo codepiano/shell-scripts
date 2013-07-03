@@ -3,7 +3,7 @@ pull-all-git-project
 
 在给定目录的所有子文件夹下执行git pull origin master
 
-execute "git pull" command in the subdirectory of the specify directory
+execute "git pull origin master" command in the subdirectory of the specify directory
 
 如果你签出的项目都在一个或几个目录下，
 
