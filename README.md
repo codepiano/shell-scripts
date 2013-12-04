@@ -48,9 +48,9 @@ eg:
 
 >path\_list=("$HOME/git" "/git")
 
->*添加以后 after add my git path:F:/git*
+>*添加以后 after add my git path:$HOME/git*
 
->path\_list=("$HOME/git" "/git" "F:/git")
+>path\_list=("$HOME/git" "/git" "$HOME/git")
 
 如果使用-d选项传入参数，只会更新单个的项目
 
@@ -59,6 +59,10 @@ only pull single project if option -d is specified and a path is offered
 eg:
 
 >./update-git.sh -d /home/user/git/pull-all-git-project
+
+如果使用-l选项，则会列出所有配置的目录，可以使用对应的序号，只更新单个目录
+
+use -l to update one of the projects home in the path_list
 
 Windows批处理脚本 (Windows Batch Script）
 --------------------
