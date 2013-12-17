@@ -16,7 +16,7 @@ function pull() {
         if [ -d "$single_project_path/.git" ]
         then
             echo "------------------- $single_project_path"
-            git --git-dir "$single_project_path/.git" pull origin master
+            git --git-dir "$single_project_path/.git" --work-tree "$single_project_path" pull origin master
             error_code=$?
         fi
         #update submodules
