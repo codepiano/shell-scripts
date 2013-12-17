@@ -17,7 +17,7 @@ if "%1"=="" (
 			for /D %%r in (!path%%i!\*) do (
 				if exist %%r\.git (
 					echo ------------------- %%r
-					git --git-dir "%%r\.git" pull
+					git --git-dir "%%r\.git" --work-tree "%%r" pull
 					set /a total_count=total_count+1
 				)
 				if exist %%r\.gitmodules (
