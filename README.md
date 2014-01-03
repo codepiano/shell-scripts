@@ -67,6 +67,8 @@ use -l to update one of the projects home in the path_list
 Windows批处理脚本 (Windows Batch Script）
 --------------------
 
+不再维护，建议使用linux版
+
 默认的路径为 %cd% （当前脚本所在路径） 和 %homedrive%%homepath% （系统用户主目录的完整路径）
 
 the default path is %cd% (the path to the bat-file itself) and %homedrive%%homepath% (the user's home path)
