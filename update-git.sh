@@ -67,8 +67,6 @@ else
 				echo "$OPTARG"
                     pull $OPTARG
 				;;
-        esac
-        case "$optname" in
 			"l")
                 echo "请选择要更新的目录序号:"
                 for ((index=0;index<${#path_list[@]};index++))
@@ -78,6 +76,6 @@ else
                 read select
                 update ${path_list[$select]}
 				;;
-		esac
+        esac
 	done
 fi
