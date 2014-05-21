@@ -9,8 +9,8 @@ total_count=0
 NO_SUCH_DIRECTORY_ERROR=2
 
 function pull() {
-    local single_project_path=$1
-    local error_code=0;
+    local single_project_path="$1"
+    local error_code=0
     if [ -d "$single_project_path" ]
     then
         if [ -d "$single_project_path/.git" ]
@@ -23,7 +23,7 @@ function pull() {
         if [ -f "$single_project_path/.gitmodules" ]
         then
             echo "------------------- $single_project_path submodules"
-            (cd $single_project_path && git submodule foreach git pull origin master)
+            (cd "$single_project_path" && git submodule foreach git pull origin master)
             error_code=$?
         fi
     else
@@ -41,7 +41,7 @@ function update() {
         do
             if [ -d "$projects_host/$file" ] 
             then
-                pull $projects_host/$file
+                pull "$projects_host/$file"
                 error_code=$?
             fi
         done
@@ -55,7 +55,7 @@ then
 	echo "=================== start"
 	for path in "${path_list[@]}"
 	do
-        update $path
+        update "$path"
 	done
 	echo "=================== $total_count pulled"
 else
@@ -65,16 +65,16 @@ else
 		case "$optname" in
 			"d")
 				echo "$OPTARG"
-                    pull $OPTARG
+                    pull "$OPTARG"
 				;;
 			"l")
                 echo "请选择要更新的目录序号:"
                 for ((index=0;index<${#path_list[@]};index++))
                 do
-                    echo ${index}:${path_list[$index]}
+                    echo "${index}:${path_list[$index]}"
                 done
                 read select
-                update ${path_list[$select]}
+                update "${path_list[$select]}"
 				;;
         esac
 	done
