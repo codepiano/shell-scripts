@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash
 #execute 'git pull' command in all subdirectory under the given path
 
 #the given path,eg:("~/git","/git",...)
@@ -39,7 +39,7 @@ function update() {
         echo ">>>>>>>>>>>>>>>>>>> scaning $projects_host"
         for file in `ls $projects_host`
         do
-            if [ -d "$projects_host/$file" ] 
+            if [ -d "$projects_host/$file" ]
             then
                 pull "$projects_host/$file"
                 error_code=$?
