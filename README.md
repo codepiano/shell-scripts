@@ -13,3 +13,7 @@
 抓取chrome插件[远方 New Tab](https://chrome.google.com/webstore/detail/dream-afar-new-tab/henmfoppjjkcencpbjaigfahdjlgpegn?hl=zh-CN) 的背景图片的脚本
 
 图片很不错，不过和speed dial类的插件不能共存，写了个脚本把图片抓下来当壁纸随机切换
+
+### android_logcat
+
+grep 进程，使用 logcat 显示进程日志
