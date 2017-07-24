@@ -25,3 +25,7 @@ grep 进程，使用 logcat 显示进程日志
 ### install.sh
 
 一些安装软件和命令的脚本
+
+### octopus
+
+tmux 多窗口快速连接不同 server
