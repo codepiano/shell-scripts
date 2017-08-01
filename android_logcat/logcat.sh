@@ -40,9 +40,9 @@ function logcat()
     fi
     echo "grep process by keywords <$alias> :\n"
     adb shell ps | grep "$alias"
-    linenumber=`adb shell "ps | grep \'$alias\'" | wc -l | tr -d ' '`
+    linenumber=`adb shell "ps | grep \"$alias\"" | wc -l | tr -d ' '`
     if [ "$linenumber" -eq "1" ]; then
-        adb logcat -v time | grep '(\s*'`adb shell "ps | grep \'$alias\'" | awk '{print $2}'`'):'
+        adb logcat -v time | grep '(\s*'`adb shell "ps | grep \"$alias\"" | awk '{print $2}'`'):'
     else
         echo "\nshould grep one process with a unique keyword!"
     fi
