@@ -29,3 +29,7 @@ grep 进程，使用 logcat 显示进程日志
 ### octopus
 
 tmux 多窗口快速连接不同 server
+
+### php-pfm-status-analysis
+
+分析 php-fpm 各个进程资源占用，详见目录内文档

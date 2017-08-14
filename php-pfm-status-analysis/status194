@@ -1,0 +1,1934 @@
+pool:                 www
+process manager:      static
+start time:           01/Aug/2017:12:10:06 +0800
+start since:          710348
+accepted conn:        1589
+listen queue:         0
+max listen queue:     0
+listen queue len:     0
+idle processes:       124
+active processes:     4
+total processes:      128
+max active processes: 49
+max children reached: 0
+slow requests:        14650
+
+************************
+pid:                  15100
+state:                Idle
+start time:           09/Aug/2017:12:07:28 +0800
+start since:          19306
+requests:             7125
+request duration:     12816
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /other/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  15861
+state:                Idle
+start time:           09/Aug/2017:12:08:50 +0800
+start since:          19224
+requests:             7099
+request duration:     11989
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     83.41
+last request memory:  1835008
+
+************************
+pid:                  17283
+state:                Idle
+start time:           09/Aug/2017:12:11:08 +0800
+start since:          19086
+requests:             7057
+request duration:     12411
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     80.57
+last request memory:  1835008
+
+************************
+pid:                  14867
+state:                Idle
+start time:           09/Aug/2017:12:07:13 +0800
+start since:          19321
+requests:             7129
+request duration:     11584
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     86.33
+last request memory:  1835008
+
+************************
+pid:                  15851
+state:                Idle
+start time:           09/Aug/2017:12:08:49 +0800
+start since:          19225
+requests:             7099
+request duration:     11591
+request method:       POST
+request URI:          /index.php
+content length:       24
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  14471
+state:                Idle
+start time:           09/Aug/2017:12:06:37 +0800
+start since:          19357
+requests:             7140
+request duration:     21165
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /other/index.php
+last request cpu:     47.25
+last request memory:  1835008
+
+************************
+pid:                  17058
+state:                Idle
+start time:           09/Aug/2017:12:10:42 +0800
+start since:          19112
+requests:             7067
+request duration:     171380
+request method:       POST
+request URI:          /index.php
+content length:       336
+user:                 -
+script:               /other/index.php
+last request cpu:     5.83
+last request memory:  2359296
+
+************************
+pid:                  14247
+state:                Idle
+start time:           09/Aug/2017:12:06:10 +0800
+start since:          19384
+requests:             7148
+request duration:     16068
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     62.24
+last request memory:  1835008
+
+************************
+pid:                  13490
+state:                Idle
+start time:           09/Aug/2017:12:05:01 +0800
+start since:          19453
+requests:             7172
+request duration:     12833
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  16242
+state:                Idle
+start time:           09/Aug/2017:12:09:19 +0800
+start since:          19195
+requests:             7095
+request duration:     12994
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     76.96
+last request memory:  1835008
+
+************************
+pid:                  14870
+state:                Idle
+start time:           09/Aug/2017:12:07:14 +0800
+start since:          19320
+requests:             7126
+request duration:     12883
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     77.62
+last request memory:  1835008
+
+************************
+pid:                  14772
+state:                Idle
+start time:           09/Aug/2017:12:07:07 +0800
+start since:          19327
+requests:             7134
+request duration:     10903
+request method:       POST
+request URI:          /index.php
+content length:       184
+user:                 -
+script:               /example/index.php
+last request cpu:     91.72
+last request memory:  1835008
+
+************************
+pid:                  13086
+state:                Idle
+start time:           09/Aug/2017:12:04:13 +0800
+start since:          19501
+requests:             7181
+request duration:     10638
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     188.01
+last request memory:  1835008
+
+************************
+pid:                  15335
+state:                Idle
+start time:           09/Aug/2017:12:07:58 +0800
+start since:          19276
+requests:             7121
+request duration:     99437
+request method:       POST
+request URI:          /index.php
+content length:       24
+user:                 -
+script:               /example/index.php
+last request cpu:     10.06
+last request memory:  2097152
+
+************************
+pid:                  13846
+state:                Idle
+start time:           09/Aug/2017:12:05:32 +0800
+start since:          19422
+requests:             7161
+request duration:     104623
+request method:       POST
+request URI:          /index.php
+content length:       171
+user:                 -
+script:               /example/index.php
+last request cpu:     9.56
+last request memory:  2359296
+
+************************
+pid:                  14711
+state:                Idle
+start time:           09/Aug/2017:12:07:00 +0800
+start since:          19334
+requests:             7130
+request duration:     9491
+request method:       POST
+request URI:          /index.php
+content length:       199
+user:                 -
+script:               /example/index.php
+last request cpu:     105.36
+last request memory:  1835008
+
+************************
+pid:                  16883
+state:                Running
+start time:           09/Aug/2017:12:10:19 +0800
+start since:          19135
+requests:             7064
+request duration:     181
+request method:       GET
+request URI:          /php_status
+content length:       0
+user:                 -
+script:               -
+last request cpu:     0.00
+last request memory:  0
+
+************************
+pid:                  15661
+state:                Idle
+start time:           09/Aug/2017:12:08:24 +0800
+start since:          19250
+requests:             7113
+request duration:     18249
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     54.80
+last request memory:  1835008
+
+************************
+pid:                  14965
+state:                Idle
+start time:           09/Aug/2017:12:07:21 +0800
+start since:          19313
+requests:             7133
+request duration:     106933
+request method:       POST
+request URI:          /index.php
+content length:       157
+user:                 -
+script:               /example/index.php
+last request cpu:     9.35
+last request memory:  2359296
+
+************************
+pid:                  18215
+state:                Idle
+start time:           09/Aug/2017:12:12:40 +0800
+start since:          18994
+requests:             7034
+request duration:     98379
+request method:       POST
+request URI:          /index.php
+content length:       24
+user:                 -
+script:               /example/index.php
+last request cpu:     10.16
+last request memory:  2097152
+
+************************
+pid:                  17718
+state:                Idle
+start time:           09/Aug/2017:12:11:47 +0800
+start since:          19047
+requests:             7044
+request duration:     72401
+request method:       POST
+request URI:          /index.php
+content length:       24
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  13928
+state:                Idle
+start time:           09/Aug/2017:12:05:44 +0800
+start since:          19410
+requests:             7152
+request duration:     144468
+request method:       POST
+request URI:          /index.php
+content length:       24
+user:                 -
+script:               /example/index.php
+last request cpu:     6.92
+last request memory:  2097152
+
+************************
+pid:                  17381
+state:                Idle
+start time:           09/Aug/2017:12:11:13 +0800
+start since:          19081
+requests:             7056
+request duration:     12915
+request method:       POST
+request URI:          /index.php
+content length:       229
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  14783
+state:                Idle
+start time:           09/Aug/2017:12:07:08 +0800
+start since:          19326
+requests:             7138
+request duration:     12595
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  15403
+state:                Idle
+start time:           09/Aug/2017:12:08:06 +0800
+start since:          19268
+requests:             7122
+request duration:     101691
+request method:       POST
+request URI:          /index.php
+content length:       157
+user:                 -
+script:               /example/index.php
+last request cpu:     19.67
+last request memory:  2359296
+
+************************
+pid:                  14529
+state:                Idle
+start time:           09/Aug/2017:12:06:43 +0800
+start since:          19351
+requests:             7130
+request duration:     91243
+request method:       POST
+request URI:          /index.php
+content length:       169
+user:                 -
+script:               /example/index.php
+last request cpu:     10.96
+last request memory:  2359296
+
+************************
+pid:                  15380
+state:                Idle
+start time:           09/Aug/2017:12:08:03 +0800
+start since:          19271
+requests:             7110
+request duration:     12792
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  16193
+state:                Idle
+start time:           09/Aug/2017:12:09:16 +0800
+start since:          19198
+requests:             7091
+request duration:     29234
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  14892
+state:                Idle
+start time:           09/Aug/2017:12:07:14 +0800
+start since:          19320
+requests:             7120
+request duration:     118677
+request method:       POST
+request URI:          /index.php
+content length:       157
+user:                 -
+script:               /example/index.php
+last request cpu:     8.43
+last request memory:  2359296
+
+************************
+pid:                  16223
+state:                Idle
+start time:           09/Aug/2017:12:09:18 +0800
+start since:          19196
+requests:             7094
+request duration:     76507
+request method:       POST
+request URI:          /index.php
+content length:       24
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  13714
+state:                Idle
+start time:           09/Aug/2017:12:05:22 +0800
+start since:          19432
+requests:             7151
+request duration:     12771
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     78.30
+last request memory:  1835008
+
+************************
+pid:                  13831
+state:                Idle
+start time:           09/Aug/2017:12:05:31 +0800
+start since:          19423
+requests:             7162
+request duration:     24252
+request method:       POST
+request URI:          /index.php
+content length:       129
+user:                 -
+script:               /other/index.php
+last request cpu:     41.23
+last request memory:  2097152
+
+************************
+pid:                  12750
+state:                Idle
+start time:           09/Aug/2017:12:03:34 +0800
+start since:          19540
+requests:             7194
+request duration:     13420
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  17524
+state:                Idle
+start time:           09/Aug/2017:12:11:27 +0800
+start since:          19067
+requests:             7057
+request duration:     11804
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     84.72
+last request memory:  1835008
+
+************************
+pid:                  16017
+state:                Idle
+start time:           09/Aug/2017:12:09:02 +0800
+start since:          19212
+requests:             7095
+request duration:     20954
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  14027
+state:                Idle
+start time:           09/Aug/2017:12:05:53 +0800
+start since:          19401
+requests:             7155
+request duration:     98147
+request method:       POST
+request URI:          /index.php
+content length:       156
+user:                 -
+script:               /example/index.php
+last request cpu:     10.19
+last request memory:  2359296
+
+************************
+pid:                  14739
+state:                Idle
+start time:           09/Aug/2017:12:07:03 +0800
+start since:          19331
+requests:             7143
+request duration:     17396
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  14934
+state:                Idle
+start time:           09/Aug/2017:12:07:18 +0800
+start since:          19316
+requests:             7134
+request duration:     108802
+request method:       POST
+request URI:          /index.php
+content length:       157
+user:                 -
+script:               /example/index.php
+last request cpu:     9.19
+last request memory:  2359296
+
+************************
+pid:                  16007
+state:                Idle
+start time:           09/Aug/2017:12:09:02 +0800
+start since:          19212
+requests:             7099
+request duration:     19146
+request method:       POST
+request URI:          /index.php
+content length:       129
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  2097152
+
+************************
+pid:                  14466
+state:                Idle
+start time:           09/Aug/2017:12:06:34 +0800
+start since:          19360
+requests:             7140
+request duration:     11749
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  15694
+state:                Idle
+start time:           09/Aug/2017:12:08:28 +0800
+start since:          19246
+requests:             7110
+request duration:     165392
+request method:       POST
+request URI:          /index.php
+content length:       336
+user:                 -
+script:               /example/index.php
+last request cpu:     6.05
+last request memory:  2359296
+
+************************
+pid:                  15858
+state:                Idle
+start time:           09/Aug/2017:12:08:50 +0800
+start since:          19224
+requests:             7094
+request duration:     18675
+request method:       POST
+request URI:          /index.php
+content length:       129
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  2097152
+
+************************
+pid:                  15406
+state:                Idle
+start time:           09/Aug/2017:12:08:07 +0800
+start since:          19267
+requests:             7108
+request duration:     13952
+request method:       POST
+request URI:          /index.php
+content length:       142
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  15290
+state:                Idle
+start time:           09/Aug/2017:12:07:51 +0800
+start since:          19283
+requests:             7126
+request duration:     34377
+request method:       POST
+request URI:          /index.php
+content length:       129
+user:                 -
+script:               /example/index.php
+last request cpu:     29.09
+last request memory:  2097152
+
+************************
+pid:                  18362
+state:                Idle
+start time:           09/Aug/2017:12:12:56 +0800
+start since:          18978
+requests:             7017
+request duration:     133644
+request method:       POST
+request URI:          /index.php
+content length:       157
+user:                 -
+script:               /example/index.php
+last request cpu:     7.48
+last request memory:  2359296
+
+************************
+pid:                  15779
+state:                Idle
+start time:           09/Aug/2017:12:08:38 +0800
+start since:          19236
+requests:             7096
+request duration:     162690
+request method:       POST
+request URI:          /index.php
+content length:       347
+user:                 -
+script:               /example/index.php
+last request cpu:     6.15
+last request memory:  2359296
+
+************************
+pid:                  13907
+state:                Idle
+start time:           09/Aug/2017:12:05:41 +0800
+start since:          19413
+requests:             7159
+request duration:     21184
+request method:       POST
+request URI:          /index.php
+content length:       115
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  2097152
+
+************************
+pid:                  18214
+state:                Idle
+start time:           09/Aug/2017:12:12:40 +0800
+start since:          18994
+requests:             7032
+request duration:     23085
+request method:       POST
+request URI:          /index.php
+content length:       129
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  2097152
+
+************************
+pid:                  14522
+state:                Idle
+start time:           09/Aug/2017:12:06:41 +0800
+start since:          19353
+requests:             7138
+request duration:     159165
+request method:       POST
+request URI:          /index.php
+content length:       336
+user:                 -
+script:               /example/index.php
+last request cpu:     6.28
+last request memory:  2359296
+
+************************
+pid:                  12361
+state:                Idle
+start time:           09/Aug/2017:12:02:50 +0800
+start since:          19584
+requests:             7208
+request duration:     10050
+request method:       POST
+request URI:          /index.php
+content length:       184
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  16468
+state:                Idle
+start time:           09/Aug/2017:12:09:35 +0800
+start since:          19179
+requests:             7085
+request duration:     20909
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     47.83
+last request memory:  1835008
+
+************************
+pid:                  13968
+state:                Idle
+start time:           09/Aug/2017:12:05:47 +0800
+start since:          19407
+requests:             7159
+request duration:     27360
+request method:       POST
+request URI:          /index.php
+content length:       129
+user:                 -
+script:               /example/index.php
+last request cpu:     36.55
+last request memory:  2097152
+
+************************
+pid:                  12059
+state:                Idle
+start time:           09/Aug/2017:12:02:15 +0800
+start since:          19619
+requests:             7215
+request duration:     12554
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  13501
+state:                Idle
+start time:           09/Aug/2017:12:05:02 +0800
+start since:          19452
+requests:             7172
+request duration:     16493
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  13507
+state:                Idle
+start time:           09/Aug/2017:12:05:03 +0800
+start since:          19451
+requests:             7171
+request duration:     31940
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     31.31
+last request memory:  1835008
+
+************************
+pid:                  17401
+state:                Idle
+start time:           09/Aug/2017:12:11:15 +0800
+start since:          19079
+requests:             7060
+request duration:     17050
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     58.65
+last request memory:  1835008
+
+************************
+pid:                  17485
+state:                Idle
+start time:           09/Aug/2017:12:11:26 +0800
+start since:          19068
+requests:             7058
+request duration:     93251
+request method:       POST
+request URI:          /index.php
+content length:       185
+user:                 -
+script:               /example/index.php
+last request cpu:     10.72
+last request memory:  2359296
+
+************************
+pid:                  17214
+state:                Idle
+start time:           09/Aug/2017:12:11:00 +0800
+start since:          19094
+requests:             7062
+request duration:     12133
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  13538
+state:                Idle
+start time:           09/Aug/2017:12:05:07 +0800
+start since:          19447
+requests:             7176
+request duration:     16353
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  15862
+state:                Idle
+start time:           09/Aug/2017:12:08:50 +0800
+start since:          19224
+requests:             7101
+request duration:     21837
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     45.79
+last request memory:  1835008
+
+************************
+pid:                  15780
+state:                Idle
+start time:           09/Aug/2017:12:08:38 +0800
+start since:          19236
+requests:             7098
+request duration:     9797
+request method:       POST
+request URI:          /index.php
+content length:       171
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  14606
+state:                Idle
+start time:           09/Aug/2017:12:06:51 +0800
+start since:          19343
+requests:             7135
+request duration:     12060
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     82.92
+last request memory:  1835008
+
+************************
+pid:                  15022
+state:                Idle
+start time:           09/Aug/2017:12:07:25 +0800
+start since:          19309
+requests:             7124
+request duration:     20418
+request method:       POST
+request URI:          /index.php
+content length:       129
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  2097152
+
+************************
+pid:                  15358
+state:                Idle
+start time:           09/Aug/2017:12:07:59 +0800
+start since:          19275
+requests:             7116
+request duration:     111176
+request method:       POST
+request URI:          /index.php
+content length:       169
+user:                 -
+script:               /example/index.php
+last request cpu:     8.99
+last request memory:  2359296
+
+************************
+pid:                  15591
+state:                Idle
+start time:           09/Aug/2017:12:08:17 +0800
+start since:          19257
+requests:             7107
+request duration:     11144
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  15167
+state:                Idle
+start time:           09/Aug/2017:12:07:33 +0800
+start since:          19301
+requests:             7117
+request duration:     128189
+request method:       POST
+request URI:          /index.php
+content length:       157
+user:                 -
+script:               /example/index.php
+last request cpu:     7.80
+last request memory:  2359296
+
+************************
+pid:                  16825
+state:                Idle
+start time:           09/Aug/2017:12:10:12 +0800
+start since:          19142
+requests:             7076
+request duration:     28013
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     35.70
+last request memory:  1835008
+
+************************
+pid:                  14580
+state:                Idle
+start time:           09/Aug/2017:12:06:50 +0800
+start since:          19344
+requests:             7137
+request duration:     20107
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     49.73
+last request memory:  1835008
+
+************************
+pid:                  15432
+state:                Idle
+start time:           09/Aug/2017:12:08:08 +0800
+start since:          19266
+requests:             7114
+request duration:     16783
+request method:       POST
+request URI:          /index.php
+content length:       45
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  2097152
+
+************************
+pid:                  14947
+state:                Idle
+start time:           09/Aug/2017:12:07:19 +0800
+start since:          19315
+requests:             7132
+request duration:     37600
+request method:       POST
+request URI:          /index.php
+content length:       129
+user:                 -
+script:               /example/index.php
+last request cpu:     26.60
+last request memory:  2097152
+
+************************
+pid:                  14116
+state:                Idle
+start time:           09/Aug/2017:12:06:04 +0800
+start since:          19390
+requests:             7159
+request duration:     126589
+request method:       POST
+request URI:          /index.php
+content length:       168
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  2359296
+
+************************
+pid:                  15683
+state:                Idle
+start time:           09/Aug/2017:12:08:26 +0800
+start since:          19248
+requests:             7109
+request duration:     156930
+request method:       POST
+request URI:          /index.php
+content length:       316
+user:                 -
+script:               /example/index.php
+last request cpu:     6.37
+last request memory:  2359296
+
+************************
+pid:                  13997
+state:                Idle
+start time:           09/Aug/2017:12:05:51 +0800
+start since:          19403
+requests:             7162
+request duration:     102387
+request method:       POST
+request URI:          /index.php
+content length:       185
+user:                 -
+script:               /example/index.php
+last request cpu:     9.77
+last request memory:  2359296
+
+************************
+pid:                  14956
+state:                Running
+start time:           09/Aug/2017:12:07:20 +0800
+start since:          19314
+requests:             7127
+request duration:     7465
+request method:       POST
+request URI:          /index.php
+content length:       129
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  0
+
+************************
+pid:                  14899
+state:                Idle
+start time:           09/Aug/2017:12:07:16 +0800
+start since:          19318
+requests:             7131
+request duration:     156947
+request method:       POST
+request URI:          /index.php
+content length:       328
+user:                 -
+script:               /example/index.php
+last request cpu:     6.37
+last request memory:  2359296
+
+************************
+pid:                  16924
+state:                Idle
+start time:           09/Aug/2017:12:10:23 +0800
+start since:          19131
+requests:             7073
+request duration:     12073
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  16291
+state:                Idle
+start time:           09/Aug/2017:12:09:22 +0800
+start since:          19192
+requests:             7082
+request duration:     13657
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  18306
+state:                Idle
+start time:           09/Aug/2017:12:12:52 +0800
+start since:          18982
+requests:             7026
+request duration:     14702
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     68.02
+last request memory:  1835008
+
+************************
+pid:                  16697
+state:                Idle
+start time:           09/Aug/2017:12:10:05 +0800
+start since:          19149
+requests:             7072
+request duration:     19996
+request method:       POST
+request URI:          /index.php
+content length:       129
+user:                 -
+script:               /example/index.php
+last request cpu:     50.01
+last request memory:  2097152
+
+************************
+pid:                  14291
+state:                Idle
+start time:           09/Aug/2017:12:06:17 +0800
+start since:          19377
+requests:             7155
+request duration:     124346
+request method:       POST
+request URI:          /index.php
+content length:       169
+user:                 -
+script:               /example/index.php
+last request cpu:     8.04
+last request memory:  2359296
+
+************************
+pid:                  13742
+state:                Idle
+start time:           09/Aug/2017:12:05:25 +0800
+start since:          19429
+requests:             7164
+request duration:     11770
+request method:       POST
+request URI:          /index.php
+content length:       46
+user:                 -
+script:               /example/index.php
+last request cpu:     84.96
+last request memory:  2097152
+
+************************
+pid:                  15650
+state:                Idle
+start time:           09/Aug/2017:12:08:22 +0800
+start since:          19252
+requests:             7110
+request duration:     188040
+request method:       POST
+request URI:          /index.php
+content length:       326
+user:                 -
+script:               /example/index.php
+last request cpu:     10.64
+last request memory:  2359296
+
+************************
+pid:                  14073
+state:                Idle
+start time:           09/Aug/2017:12:05:58 +0800
+start since:          19396
+requests:             7156
+request duration:     13229
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     75.59
+last request memory:  1835008
+
+************************
+pid:                  16531
+state:                Idle
+start time:           09/Aug/2017:12:09:41 +0800
+start since:          19173
+requests:             7083
+request duration:     12563
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  16290
+state:                Idle
+start time:           09/Aug/2017:12:09:22 +0800
+start since:          19192
+requests:             7090
+request duration:     12572
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  15017
+state:                Idle
+start time:           09/Aug/2017:12:07:25 +0800
+start since:          19309
+requests:             7121
+request duration:     34071
+request method:       POST
+request URI:          /index.php
+content length:       51
+user:                 -
+script:               /example/index.php
+last request cpu:     29.35
+last request memory:  2359296
+
+************************
+pid:                  14617
+state:                Idle
+start time:           09/Aug/2017:12:06:52 +0800
+start since:          19342
+requests:             7130
+request duration:     21615
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  13155
+state:                Idle
+start time:           09/Aug/2017:12:04:21 +0800
+start since:          19493
+requests:             7176
+request duration:     20306
+request method:       POST
+request URI:          /index.php
+content length:       115
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  2097152
+
+************************
+pid:                  14599
+state:                Idle
+start time:           09/Aug/2017:12:06:51 +0800
+start since:          19343
+requests:             7144
+request duration:     115362
+request method:       POST
+request URI:          /index.php
+content length:       166
+user:                 -
+script:               /example/index.php
+last request cpu:     8.67
+last request memory:  2359296
+
+************************
+pid:                  13393
+state:                Idle
+start time:           09/Aug/2017:12:04:48 +0800
+start since:          19466
+requests:             7170
+request duration:     14923
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  14431
+state:                Idle
+start time:           09/Aug/2017:12:06:30 +0800
+start since:          19364
+requests:             7150
+request duration:     11222
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     89.11
+last request memory:  1835008
+
+************************
+pid:                  14758
+state:                Running
+start time:           09/Aug/2017:12:07:06 +0800
+start since:          19328
+requests:             7127
+request duration:     9948
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  0
+
+************************
+pid:                  16839
+state:                Idle
+start time:           09/Aug/2017:12:10:14 +0800
+start since:          19140
+requests:             7075
+request duration:     11855
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     84.35
+last request memory:  1835008
+
+************************
+pid:                  18177
+state:                Idle
+start time:           09/Aug/2017:12:12:35 +0800
+start since:          18999
+requests:             7040
+request duration:     10899
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  17344
+state:                Idle
+start time:           09/Aug/2017:12:11:09 +0800
+start since:          19085
+requests:             7060
+request duration:     12491
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  15948
+state:                Idle
+start time:           09/Aug/2017:12:08:57 +0800
+start since:          19217
+requests:             7107
+request duration:     25429
+request method:       POST
+request URI:          /index.php
+content length:       129
+user:                 -
+script:               /example/index.php
+last request cpu:     39.33
+last request memory:  2097152
+
+************************
+pid:                  15848
+state:                Idle
+start time:           09/Aug/2017:12:08:48 +0800
+start since:          19226
+requests:             7104
+request duration:     24666
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     40.54
+last request memory:  1835008
+
+************************
+pid:                  17128
+state:                Idle
+start time:           09/Aug/2017:12:10:53 +0800
+start since:          19101
+requests:             7064
+request duration:     11791
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     84.81
+last request memory:  1835008
+
+************************
+pid:                  18287
+state:                Idle
+start time:           09/Aug/2017:12:12:49 +0800
+start since:          18985
+requests:             7034
+request duration:     12871
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  13548
+state:                Idle
+start time:           09/Aug/2017:12:05:08 +0800
+start since:          19446
+requests:             7171
+request duration:     13787
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  14094
+state:                Idle
+start time:           09/Aug/2017:12:06:01 +0800
+start since:          19393
+requests:             7147
+request duration:     11472
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  17529
+state:                Idle
+start time:           09/Aug/2017:12:11:28 +0800
+start since:          19066
+requests:             7046
+request duration:     124492
+request method:       POST
+request URI:          /index.php
+content length:       170
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  2359296
+
+************************
+pid:                  17035
+state:                Idle
+start time:           09/Aug/2017:12:10:38 +0800
+start since:          19116
+requests:             7064
+request duration:     13668
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  15172
+state:                Idle
+start time:           09/Aug/2017:12:07:34 +0800
+start since:          19300
+requests:             7117
+request duration:     18953
+request method:       POST
+request URI:          /index.php
+content length:       129
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  2097152
+
+************************
+pid:                  16020
+state:                Idle
+start time:           09/Aug/2017:12:09:04 +0800
+start since:          19210
+requests:             7095
+request duration:     11477
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     174.26
+last request memory:  1835008
+
+************************
+pid:                  13124
+state:                Idle
+start time:           09/Aug/2017:12:04:17 +0800
+start since:          19497
+requests:             7178
+request duration:     12364
+request method:       POST
+request URI:          /index.php
+content length:       24
+user:                 -
+script:               /example/index.php
+last request cpu:     80.88
+last request memory:  1835008
+
+************************
+pid:                  16459
+state:                Idle
+start time:           09/Aug/2017:12:09:34 +0800
+start since:          19180
+requests:             7093
+request duration:     13672
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  16834
+state:                Idle
+start time:           09/Aug/2017:12:10:14 +0800
+start since:          19140
+requests:             7080
+request duration:     17586
+request method:       POST
+request URI:          /index.php
+content length:       129
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  2097152
+
+************************
+pid:                  17259
+state:                Idle
+start time:           09/Aug/2017:12:11:07 +0800
+start since:          19087
+requests:             7060
+request duration:     15043
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     66.48
+last request memory:  1835008
+
+************************
+pid:                  16198
+state:                Idle
+start time:           09/Aug/2017:12:09:17 +0800
+start since:          19197
+requests:             7093
+request duration:     12258
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  15819
+state:                Idle
+start time:           09/Aug/2017:12:08:43 +0800
+start since:          19231
+requests:             7109
+request duration:     10484
+request method:       POST
+request URI:          /index.php
+content length:       167
+user:                 -
+script:               /example/index.php
+last request cpu:     95.38
+last request memory:  1835008
+
+************************
+pid:                  16725
+state:                Idle
+start time:           09/Aug/2017:12:10:07 +0800
+start since:          19147
+requests:             7080
+request duration:     77361
+request method:       POST
+request URI:          /index.php
+content length:       24
+user:                 -
+script:               /example/index.php
+last request cpu:     12.93
+last request memory:  1835008
+
+************************
+pid:                  18025
+state:                Idle
+start time:           09/Aug/2017:12:12:19 +0800
+start since:          19015
+requests:             7036
+request duration:     18359
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     54.47
+last request memory:  1835008
+
+************************
+pid:                  13402
+state:                Idle
+start time:           09/Aug/2017:12:04:49 +0800
+start since:          19465
+requests:             7177
+request duration:     19672
+request method:       POST
+request URI:          /index.php
+content length:       23
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  12884
+state:                Idle
+start time:           09/Aug/2017:12:03:54 +0800
+start since:          19520
+requests:             7190
+request duration:     13978
+request method:       POST
+request URI:          /index.php
+content length:       46
+user:                 -
+script:               /example/index.php
+last request cpu:     71.54
+last request memory:  2097152
+
+************************
+pid:                  12594
+state:                Idle
+start time:           09/Aug/2017:12:03:17 +0800
+start since:          19557
+requests:             7203
+request duration:     19716
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     50.72
+last request memory:  1835008
+
+************************
+pid:                  16142
+state:                Idle
+start time:           09/Aug/2017:12:09:11 +0800
+start since:          19203
+requests:             7104
+request duration:     144231
+request method:       POST
+request URI:          /index.php
+content length:       338
+user:                 -
+script:               /example/index.php
+last request cpu:     6.93
+last request memory:  2359296
+
+************************
+pid:                  16283
+state:                Idle
+start time:           09/Aug/2017:12:09:22 +0800
+start since:          19192
+requests:             7094
+request duration:     14851
+request method:       POST
+request URI:          /index.php
+content length:       24
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  14842
+state:                Idle
+start time:           09/Aug/2017:12:07:10 +0800
+start since:          19324
+requests:             7138
+request duration:     12705
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  16061
+state:                Idle
+start time:           09/Aug/2017:12:09:07 +0800
+start since:          19207
+requests:             7091
+request duration:     26507
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  16188
+state:                Idle
+start time:           09/Aug/2017:12:09:15 +0800
+start since:          19199
+requests:             7098
+request duration:     13310
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  12092
+state:                Idle
+start time:           09/Aug/2017:12:02:18 +0800
+start since:          19616
+requests:             7222
+request duration:     20369
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     49.09
+last request memory:  1835008
+
+************************
+pid:                  15231
+state:                Idle
+start time:           09/Aug/2017:12:07:43 +0800
+start since:          19291
+requests:             7127
+request duration:     156205
+request method:       POST
+request URI:          /index.php
+content length:       332
+user:                 -
+script:               /example/index.php
+last request cpu:     6.40
+last request memory:  2359296
+
+************************
+pid:                  17252
+state:                Idle
+start time:           09/Aug/2017:12:11:05 +0800
+start since:          19089
+requests:             7060
+request duration:     11506
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     86.91
+last request memory:  1835008
+
+************************
+pid:                  17028
+state:                Idle
+start time:           09/Aug/2017:12:10:37 +0800
+start since:          19117
+requests:             7067
+request duration:     13828
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     72.32
+last request memory:  1835008
+
+************************
+pid:                  18050
+state:                Idle
+start time:           09/Aug/2017:12:12:22 +0800
+start since:          19012
+requests:             7041
+request duration:     22833
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     43.80
+last request memory:  1835008
+
+************************
+pid:                  18242
+state:                Idle
+start time:           09/Aug/2017:12:12:43 +0800
+start since:          18991
+requests:             7028
+request duration:     13336
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /example/index.php
+last request cpu:     0.00
+last request memory:  1835008
+
+************************
+pid:                  6029
+state:                Running
+start time:           01/Aug/2017:23:57:50 +0800
+start since:          667884
+requests:             14657
+request duration:     638948130494
+request method:       POST
+request URI:          /index.php
+content length:       0
+user:                 -
+script:               /other/index.php
+last request cpu:     0.00
+last request memory:  0
