@@ -27,10 +27,14 @@
 #
 # 使用方法：
 #     仍旧以上例，在 octopus 函数中的 SERVER_ALIAS_RULES 关联数组中定义规则如下：
-#     SERVER_ALIAS_RULES["s"]="{index}" 
+#     SERVER_ALIAS_RULES["s"]="{index}"
 #     规则中的 {index} 会被替换为编号
 #     source octopus.sh 以后可以在 tmux 中打开 4 个 pane，直接在 synchronize-panes 模式执行命令 octopus s
 #     每个 pane 会按照自己的 tmux 编号分别连接到对应的 server，pane 1 执行 ssh 1，pane 2 执行 ssh 2 ...
+#
+#     如果嫌配置太麻烦，可以直接通过 octopus @，脚本先尝试把 '@' 当做配置规则去 SERVER_ALIAS_RULES 中查找
+#     如果找到，尝试进行 ssh 登录
+#     如果没有找到，会把 '@' 这个字符替换为 pane 编号，可以达到同样的效果
 #
 # base 参数场景：
 #     仍旧上例 4 个 server，只想操作 s2 和 s3，可以通过传递 base 参数来实现，octopus 会把 base 和 pane 编号相加作为最终的数字
@@ -50,7 +54,8 @@
 #
 #         Host *-web
 #         User root
-#     配置规则 SERVER_ALIAS_RULES["web"]="s{index}-web"
+#     配置规则 SERVER_ALIAS_RULES["web"]="s{index}-web"，然后 octopus web
+#     或者不配置规则，通过 octopus s@-web
 
 
 function octopus() {
@@ -71,13 +76,14 @@ function octopus() {
         pane_index=$(( $base + $pane_index ))
         if [[ -n "$pane_index" ]]; then
             local rule="${SERVER_ALIAS_RULES[\"$1\"]}"
-            if [[ "$rule" = "" ]]; then
-                echo "no rule for $1!"
+            if [[ "$rule" == "" ]]; then
+                ssh "${1/\?/$pane_index}"
             else
                 ssh "${rule/\{index\}/$pane_index}"
             fi
         else
             echo 'get pane index failed!'
         fi
+
     fi
 }
