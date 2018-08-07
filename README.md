@@ -37,3 +37,7 @@ tmux 多窗口快速连接不同 server
 ### kubectl-exec-bash
 
 连接到 kubernetes 编排的容器内的 shell
+
+### get_screensaver_pic
+
+从 win10 缓存目录获取屏保图片
