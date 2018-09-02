@@ -116,7 +116,7 @@ fi
 # 通过 kubectl $kubectl_options 查询 pod
 pod_list=`kubectl $kubectl_options get pod -n $namespace | grep $pod`
 if [ "$?" == "0" ]; then
-    pod_result_count=`echo "$pod_list" | wc -l`
+    pod_result_count=`echo "$pod_list" | wc -l | tr -d ' '`
     if [ "$pod_result_count" = "0" ]; then
         # 没有查到内容
         echo "${red}通过 $pod 模糊匹配失败${reset}"
